@@ -82,7 +82,8 @@ background-color: #110;
 color: white;
 }
 
-background-image: url('https://photos.app.goo.gl/C2u4VVOyY7ui0lVv2.gif');
+.Logo{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top; 
+}
