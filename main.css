@@ -82,4 +82,7 @@ background-color: #110;
 color: white;
 }
 
-
+background-image: url('file:///Users/idi/Library/Containers/com.apple.mail/Data/Library/Mail%20Downloads/F035066B-4412-4E01-8AEA-7AD97D10A2EA/imageedit_17_2259175591.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
