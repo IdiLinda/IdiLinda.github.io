@@ -1,15 +1,14 @@
-html
+html{
+background-color:black;
+color:white;
+}
 
-/*body {
-font-family: sans-serif;
-margin: 0;
-width: 100%;
-height: 100%;
+body{
+Margin:0;
 }
 
 h1 {
 font-size: 48px;
-	
 }
 
 p {
@@ -33,56 +32,37 @@ background-color: #000000;
 border: 2px solid black;
 }
 
-.container {
-display: flex;
+.logo{
+    	background: url(PlanAble.jpg);
+    	background-attachment: fixed;
+    	background-position: center top;
+    	background-size: 100px; 
+	background-color:black;
+	width:100%
 }
 
-.main {
-padding-left: 30px;
-min-width: 75%;
+.smallLogo {
+ background-size: 200px; 
 }
 
-.nav {
-background-color: #FFEE00;
-max-width: 25%;
-min-width: 140px;
-flex: 1;
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  color: white;
 }
 
-.nav h1 {
-padding-left: 20px;
-}*/
-
-/* Add a black background color to the top navigation */
-.topnav {
-background-color: #110;
-overflow: hidden;
-position: fixed;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
+.fixed-nav-bar a {
 float: left;
 color: #f2f2f2;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
+margin-left:15px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-background-color: #ddd;
-color: black;
-}
 
-/* Add a color to the active/current link */
-.topnav a.active {
-background-color: #110;
-color: white;
-}
-
-.logo{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top; 
