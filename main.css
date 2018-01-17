@@ -3,9 +3,6 @@ html{
   color:white;
 }
 
-body{
-  margin:0;
-}
 
 h1 {
   font-size: 48px;
@@ -13,7 +10,8 @@ h1 {
 
 p {
   max-width: 65%;
-  min-width: 500px;
+  min-width: 800px;
+  font-size: 20px;
 }
 
 h2 {
@@ -25,26 +23,6 @@ div {
   padding-right: 30px;
   height: 100%;
   width: 100%;
-}
-
-video {
-  background-color: #000000;
-  border: 2px solid black;
-}
-
-.logo{
-  background: url(PlanAble.jpg);
-  background-attachment: fixed;
-  background-position: center top;
-  background-size: 100px; 
-  background-color:black;
-  width:100%
-}
-
-.smallLogo {
-  background-size: 200px; 
-  left: 180px;
-  position: right;
 }
 
 .fixed-nav-bar {
@@ -67,21 +45,30 @@ video {
   margin-left:15px;
 }
 
+a:hover { 
+  background-color: white;
+  color: black;
+}
+
+a:active { 
+    background-color: yellow;
+}
+
+.logo{
+  background: url(PlanAble.jpg);
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: 100px; 
+  background-color:black;
+  width:100%
+}
+
+.smallLogo {
+  background-size: 200px; 
+  left: 180px;
+  position: right;
+}
+
 .copyright{
-  font-size: 24px;
-}
-
-.download{
-    position:fixed;
-    bottom: -2000px;
-}
-
-.apple{
-  width: 250px;
-  height: 15px;
-}
-
-.google{
-  width: 250px;
-  height: 15px;
+  font-size: 18px;
 }
